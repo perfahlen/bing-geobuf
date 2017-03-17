@@ -1,0 +1,23 @@
+.full-screen{
+    position : absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4aa1dc;
+}
+
+.info-text{
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        color: gray;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 2em;
+    opacity: 0.8;
+}
