@@ -2,6 +2,8 @@ const express = require('express')
 const bmBuf = require('./geobufservice')
 const app = express()
 
+var port = process.env.PORT || 1337;
+
 app.use(express.static('public'))
 
 app.get('/service/getCountries', function (req, response) {
@@ -14,5 +16,4 @@ app.get('/service/getCountries', function (req, response) {
     response.end(content)
 })
 
-app.listen(3000, function () {
-})
+app.listen(port, function () {})

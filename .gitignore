@@ -1,1 +1,5 @@
-node_modules/
+bing-geobuf/node_modules/
+bing-geobuf/obj
+bing-geobuf/bin
+bing-geobuf/bing-geobuf - Web Deploy.pubxml
+bing-geobuf/bing-geobuf - Web Deploy.pubxml.user
